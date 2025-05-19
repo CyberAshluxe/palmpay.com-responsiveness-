@@ -428,6 +428,7 @@ footer{
     }
     .dv4 hr{
         display: block;
+        border-width: 100%;
     }
     .nav3{
         display: inline-block;
