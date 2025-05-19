@@ -1,0 +1,435 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /* border: solid 2px red; */
+    /* text-align: center; */
+}
+
+#li3 {
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 30px 100px;
+    align-items: center;
+    position: sticky;
+    z-index: 300;
+    top: 0px;
+}
+
+.nav1 img {
+    width: 150px;
+}
+
+.dv1 {
+    border: none;
+    border-radius: 30px;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(247, 247, 251);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 0px 20px;
+}
+
+.nav1 button {
+    height: 35px;
+    background-color: rgb(109, 70, 219);
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.dv1 select {
+    border: none;
+    background-color: transparent;
+    width: 40px;
+}
+
+.dv2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dv2 li {
+    margin: 0px 25px;
+}
+
+.sct1 {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.sct1 p {
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+.sct1 img {
+    width: 150px;
+    padding: 30px 0px;
+}
+#img2{
+margin: 0 4px;
+    width: 30px;
+}
+#div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sct2{
+    background: linear-gradient(to bottom,white 50%, black 50%);
+    padding: 20px 100px;
+    text-align: center;
+}
+#img3{
+    display: none;
+}
+.sct3{
+    background-color: black;
+    padding: 50px 100px;
+    color: white;
+font-size: 20px;
+text-align: center;
+}
+.sct3 h1{
+    color: rgb(207,186,251);
+    font-size: 47px;
+    padding-bottom: 20px;
+}
+.sct4{
+    padding: 100px;
+    display: flex;
+}
+
+.dv3 {
+    background-color: rgb(247,247,251);
+    /* height: 360px; */
+    padding: 70px;
+    /* flex-basis: 60%; */
+}
+.dv3 h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.dv3 p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.dv3 button{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 40px;
+    border: none;
+}
+.sct5{
+    display: flex;
+    padding: 100px;
+}
+.del1{
+    display: none;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(23, 23, 58);
+    color: white;
+    padding: 25px 100px;
+}
+.nav2 img{
+    width: 130px;
+}
+.nav2 h1{
+    font-size: 30px;
+}
+.sct6{
+    background-color: black;
+    color: white;
+    padding: 50px 100px;
+}
+.dv4{
+    display: flex;
+    justify-content: space-between;
+}
+.dv4 img{
+    width: 150PX;
+}
+.dv4 div{
+    line-height: 2.4;
+    font-size: 16px;
+}
+.nav3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.nav3 img{
+    width: 30px;
+}
+#dv4{
+    position: relative;
+    top: -60px;
+}
+footer{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.336);
+    margin-top: 20px;
+}
+.sct6 hr{
+    border: 1px solid rgba(255, 255, 255, 0.322) ;
+}
+.dv4 hr{
+    display: none;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    margin: 10px 0px;
+}
+@media (min-width:1px) and (max-width:480px) {
+    .nav1 #li2 {
+        display: none;
+    }
+
+    .nav1 span {
+        display: none;
+    }
+
+    .nav1 {
+        padding: 20px;
+    }
+
+    .dv2 li {
+        margin: 0px 10px;
+    }
+
+    #li3 {
+        display: block;
+    }
+
+    .dv1 {
+        width: 40px;
+    }
+
+    .sct1 {
+        padding: 20px;
+    }
+
+    .sct1 p {
+        font-size: 13px;
+    }
+
+    .sct1 img {
+        width: 120px;
+        padding: 25px 0px;
+    }
+    #div3 {
+        font-size: 13px;
+    }
+    #img2{
+        width: 20px;
+        margin: 0 2px;
+    }
+    .sct2{
+        padding: 10px 20px;
+    }
+    #img3{
+        display: block;
+    }
+    #img4{
+        display: none;
+    }
+    .sct3{
+        padding: 50px 20px;
+    }
+    .sct3 h1{
+        font-size: 20px;
+    }
+    .sct3 p{
+        font-size: 15px;
+    }
+    .sct3 img{
+        padding: 0px;
+        margin: 0px;
+    }
+    .sct4{
+        padding: 30px 20px;
+        margin-top: 30px;
+        display: inline-block;
+    }
+    .sct4 img{
+        width: 100%;
+        margin: 0px;
+        border-radius: 20px;
+    }
+    .sct4 h2{
+        font-size: 20px;
+    }
+    .sct4 p{
+        font-size: 14px;
+    }
+    .dv3{
+        padding: 0px 20px;
+        margin-top: 0px;
+        display: inline-block;
+        border: none
+        ;
+    }
+    .del1{
+        display: inline-block;
+        width: 100%;
+    }
+    .del1 img{
+        border-radius: 20px;
+    }
+    .del2{
+        display: none;
+        
+    }
+    .sct5{
+        padding: 30px 20px;
+        display: inline-block;
+    }
+    .nav2{
+        display: inline-block;
+        padding: 20px 30px;
+    }
+    .dv4{
+        display: inline-block;
+        padding: 20px 0px;
+    }
+    .sct6{
+        padding: 30px 20px;
+    }
+    .dv4 hr{
+        display: block;
+    }
+    .nav3{
+        display: inline-block;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .nav1 #li2 {
+        display: none;
+    }
+
+    .nav1 span {
+        display: none;
+    }
+
+    .nav1 {
+        padding: 20px;
+    }
+
+    #li3 {
+        display: block;
+    }
+
+    .dv1 {
+        width: 40px;
+    }
+
+    .sct1 {
+        padding: 20px;
+    }
+
+    .sct1 p {
+        font-size: 13px;
+    }
+
+    .sct1 img {
+        width: 140px;
+        padding: 30px 0px;
+    }
+    .sct2{
+        padding: 10px 20px;
+    }
+    #img3{
+        display: block;
+    }
+    #img4{
+        display: none;
+    }
+    .sct3{
+        padding: 50px 20px;
+        
+    }
+    .sct3 img{
+        padding: 0%;
+    }
+    .sct3 h1{
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+    .sct4{
+        padding: 30px 20px;
+        margin-top: 30px;
+        display: inline-block;
+    }
+    .sct4 img{
+        width: 100%;
+        margin: 0px;
+        border-radius: 20px;
+    }
+    .sct4 h2{
+        font-size: 20px;
+    }
+    .sct4 p{
+        font-size: 14px;
+    }
+    .dv3{
+        padding: 0px 20px;
+        margin-top: 0px;
+        display: inline-block;
+        border: none
+        ;
+    }
+    .del1{
+        display: inline-block;
+        width: 100%;
+    }
+    .del1 img{
+        border-radius: 20px;
+    }
+    .del2{
+        display: none;
+        
+    }
+    .sct5{
+        padding: 30px 20px;
+        display: inline-block;
+    }
+    .nav2{
+        display: inline-block;
+        padding: 20px 30px;
+    }
+    .dv4{
+        display: inline-block;
+        padding: 20px 20px;
+    }
+    .sct6{
+        padding: 30px 20px;
+    }
+    .dv4 hr{
+        display: block;
+    }
+    .nav3{
+        display: inline-block;
+    }
+}
